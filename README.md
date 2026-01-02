@@ -12,16 +12,16 @@ Si vous souhaitez construire quelque chose avec un Raspberry Pi, vous utiliserez
 
 Dans cet exercice, vous allez créer un programme utile pour ne plus avoir à mémoriser les valeurs des bandes. Le programme prendra 3 couleurs en entrée et produira la valeur correcte, en ohms. Les couleurs des bandes sont encodées comme suit :
 
-* noir : 0
-* marron : 1
-* rouge : 2
-* orange : 3
-* jaune : 4
-* vert : 5
-* bleu : 6
-* violet : 7
-* gris : 8
-* blanc : 9
+Black: 0
+Brown: 1
+Red: 2
+Orange: 3
+Yellow: 4
+Green: 5
+Blue: 6
+Violet: 7
+Grey: 8
+White: 9
 
 Dans l'exercice "Résistances : Duo de Couleurs", vous avez décodé les deux premières couleurs. Par exemple : orange-orange donnait la valeur principale 33. La troisième couleur indique combien de zéros doivent être ajoutés à la valeur principale. La valeur principale plus les zéros nous donne une valeur en ohms. Pour cet exercice, peu importe ce que sont réellement les ohms. Par exemple :
 
