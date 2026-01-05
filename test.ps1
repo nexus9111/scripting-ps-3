@@ -62,4 +62,9 @@ Describe "ResistorColorTrio test cases" {
         $want = "22 ohms"
         $got | Should -BeExactly $want
     }
+    It "Only one bands" {
+        $got  = Get-ResistorLabel -Colors @("red")
+        $want = "2 ohms"
+        $got | Should -BeExactly $want
+    }
 }
