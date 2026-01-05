@@ -29,8 +29,6 @@ Dans l'exercice précédent, vous avez décodé les deux premières couleurs. Pa
 * orange-orange-rouge donnerait 33 avec 2 zéros, soit 3300 ohms.
 * orange-orange-orange donnerait 33 avec 3 zéros, soit 33000 ohms.
 
-(Si les mathématiques vous parlent, vous pouvez considérer les zéros comme des puissances de 10. Sinon, restez avec les zéros. C'est vraiment la même chose, juste en langage courant plutôt qu'en jargon mathématique.)
-
 Cet exercice consiste à traduire les couleurs en une étiquette :
 
 "... ohms"
