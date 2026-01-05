@@ -58,32 +58,5 @@ Function Get-ResistorLabel() {
     )
     
     
-    $codeValue = Get-ColorCodeValue -Colors $Colors
-
-    $nbZero = 0;
-    if ($Colors.Count -gt 2) {
-        $nbZero = Get-ColorCode -Color $Colors[2]
-    }
-
-    for ($i = 0; $i -lt $nbZero; $i++) {
-        $codeValue = $codeValue + "0"
-    }
-
-    $resistorValue = [long]$codeValue
-
-    if ($resistorValue -ge 1000000000) {
-        $resistorValue = $resistorValue / 1000000000
-        return "$resistorValue gigaohms"
-    } 
-    
-    if ($resistorValue -ge 1000000) {
-        $resistorValue = $resistorValue / 1000000
-        return "$resistorValue megaohms"
-    } 
-    
-    if ($resistorValue -ge 1000) {
-        $resistorValue = $resistorValue / 1000
-        return "$resistorValue kiloohms"
-    }
-    return "$resistorValue ohms"
+    NONONO
 }
