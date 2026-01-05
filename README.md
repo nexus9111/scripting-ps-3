@@ -23,7 +23,7 @@ Violet: 7
 Grey: 8
 White: 9
 
-Dans l'exercice "Résistances : Duo de Couleurs", vous avez décodé les deux premières couleurs. Par exemple : orange-orange donnait la valeur principale 33. La troisième couleur indique combien de zéros doivent être ajoutés à la valeur principale. La valeur principale plus les zéros nous donne une valeur en ohms. Pour cet exercice, peu importe ce que sont réellement les ohms. Par exemple :
+Dans l'exercice précédent, vous avez décodé les deux premières couleurs. Par exemple : orange-orange donnait la valeur principale 33. La troisième couleur indique combien de zéros doivent être ajoutés à la valeur principale. La valeur principale plus les zéros nous donne une valeur en ohms. Pour cet exercice, peu importe ce que sont réellement les ohms. Par exemple :
 
 * orange-orange-noir donnerait 33 sans zéro, soit 33 ohms.
 * orange-orange-rouge donnerait 33 avec 2 zéros, soit 3300 ohms.
