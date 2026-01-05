@@ -52,4 +52,9 @@ Describe "ResistorColorTrio test cases" {
         $want = "650 kiloohms"
         $got | Should -BeExactly $want
     }
+    It "Ignore extra colors" {
+        $got  = Get-ResistorLabel -Colors @("red", "red", "red")
+        $want = "2.2 kiloohms"
+        $got | Should -BeExactly $want
+    }
 }
